@@ -443,15 +443,6 @@ h3 { font-size: var(--fs-h3) }
     transform: scale(1.1);
 }
 
-@media(max-width: 550px) {
-    .portfolio__item {
-    background: var(--clr-dark);
-    overflow: hidden;
-    margin-right: 15%;
-  
-}
-
-
 /* footer */
 
 .footer {
