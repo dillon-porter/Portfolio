@@ -447,7 +447,7 @@ h3 { font-size: var(--fs-h3) }
     .portfolio__item {
     background: var(--clr-dark);
     overflow: hidden;
-    margin: 0 auto;
+    margin-right: 5%;
   
 }
 
