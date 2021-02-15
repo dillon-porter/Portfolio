@@ -16,6 +16,8 @@
     --clr-light: #fff;
     --clr-dark: #303030;
     --clr-accent: #16e0bd;
+    --clr-navy: #00205b;
+    --clr-light-blue: #89CFF0;
     
     --fs-h1: 3rem;
     --fs-h2: 2.25rem;
@@ -35,7 +37,7 @@
     }
 }
 
-* General styles 
+/* General styles */
 
 
 * html {
@@ -64,7 +66,7 @@ img {
 strong { font-weight: var(--fw-bold) }
 
 :focus {
-    outline: 1.5px solid var(--clr-accent);
+    outline: 1.5px solid var(--clr-navy);
     outline-offset: 1px;
 }
 
@@ -74,8 +76,8 @@ strong { font-weight: var(--fw-bold) }
 .btn {
     display: inline-block;
     padding: .5em 2.5em;
-    background: var(--clr-accent);
-    color: var(--clr-dark);
+    background: var(--clr-navy);
+    color: var(--clr-light);
     text-decoration: none;
     cursor: pointer;
     font-size: .8rem;
@@ -122,14 +124,15 @@ h3 { font-size: var(--fs-h3) }
 
 .section__subtitle--intro,
 .section__subtitle--about {
-    background: var(--clr-accent);
+    background: var(--clr-navy);
     padding: .25em 1em;
     font-family: var(--ff-secondary);
     margin-bottom: 1em;
+    color: white;
 }
 
 .section__subtitle--work {
-    color: var(--clr-accent);
+    color: var(--clr-light-blue);
     font-weight: var(--fw-bold);
     margin-bottom: 2em;
 }
@@ -161,7 +164,7 @@ h3 { font-size: var(--fs-h3) }
 }
 
 .brand-title a:hover {
-    color: var(--clr-accent); 
+    color: var(--clr-light-blue); 
 }
 
 .navbar-links {
@@ -187,7 +190,7 @@ h3 { font-size: var(--fs-h3) }
 }
 
 .navbar-links li a:hover {
-    color: var(--clr-accent);
+    color: var(--clr-light-blue);
 }
 
 .toggle-button {
@@ -301,12 +304,12 @@ h3 { font-size: var(--fs-h3) }
     background-image: url(../img/services-bg.jpg);
     background-size: cover;
     background-blend-mode: multiply; 
-    color: var(--clr-light);
+    color: var(--clr-light-blue);
     text-align: center;
 }
 
 .section__title--services {
-    color: var(--clr-accent);
+    color: var(--clr-light-blue);
     position: relative;
 }
 
@@ -426,8 +429,8 @@ h3 { font-size: var(--fs-h3) }
 .portfolio-item-individual .btn{
     display: inline-block;
     padding: .5em 2.5em;
-    background: var(--clr-accent);
-    color: var(--clr-dark);
+    background: var(--clr-navy);
+    color: var(--clr-light);
     text-decoration: none;
     cursor: pointer;
     font-size: .8rem;
@@ -443,11 +446,12 @@ h3 { font-size: var(--fs-h3) }
     transform: scale(1.1);
 }
 
+
 /* footer */
 
 .footer {
-    background: #111;
-    color: var(--clr-accent);
+    background: #fff;
+    color: var(--clr-navy);
     text-align: center;
     padding: 2.5em 0;
     font-size: var(--fs-h3);
