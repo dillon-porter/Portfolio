@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Coffee shop</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/index.css">
+    </head>
+    <body>
+           <nav class="navbar">
+                    <div class="brand-title"><a href="index.html">Portfolio</a></div>
+                    <a href="index.html" class="toggle-button">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    </a>
+                    <div class="navbar-links">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="index.html">Services</a></li>
+                        <li><a href="index.html">About Me</a></li>
+                        <li><a href="index.html">Projects</a></li>
+                        <li><a href="index.html">Contact</a></li>
+                    </ul>
+                    </div>
+                </nav>
+
+        <section class="intro">
+            <h1 class="section__title section__title--intro">
+                React Movie <strong>Search</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">A small React.js project</p>
+            <img src="img/reactMovie.png" alt="project image" class="intro__img">
+        </section>
+        
+        <div class="portfolio-item-individual">
+            <p style="text-align: left;">This project was taught on Scrimba platform while learning how to use the React framework!</p>
+            <img style="border: solid #16e0bd 1px;" src="img/reactMovie.png" alt="project image" >
+            <p style="text-align: left;">We fetched an API from <a href="https://www.themoviedb.org/documentation/api" target="_blank"> Moviedb.org</a>, and used a React Hook, Usestate.</p>
+            <p style="text-align: left;">Developed a form to where users type in the name of the movie to receive information about it.</p>
+            <p style="text-align: left;">Used JavaScripts .map() method to filter through different movies and retrieving the movie poster, ratings and description.</p>
+            <a href="https://dillon-porter.github.io/movie-search/" target="_blank" class="btn">Demo</a>
+        </div>
+
+        <!-- Footer -->
+
+        <footer class="footer" id="contact">
+            <a href="mailto:dillonporter@hotmail.com" class="footer__link">dillonporter@hotmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://twitter.com/Broydie">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/dillon-porter">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+        <script src="js/index.js"></script>
+        
+    </body>
+</html>
